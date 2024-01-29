@@ -1,0 +1,14 @@
+<app-carousel [movies]="moviesBillboard" *ngIf="!isSearch"></app-carousel>
+<div class="container-fluid px-5 py-2">
+    <div class="text-center">
+        <h1 class="display-5 mb-5">{{ !isSearch ? 'Billboard of Movies' : 'Search Results' }}</h1>
+    </div>
+    <div class="row px-1">
+        <div class="col-xl-3 col-md-4 col-12 mb-5 wow fadeInUp" data-wow-delay=".3s" *ngFor="let movie of movies">
+            <app-card-movie [movie]="movie"></app-card-movie>
+        </div>
+    </div>
+    <div class="mt-2" *ngIf="!isSearch">
+        <app-pagination (changePage)="fetMovies($event)"></app-pagination>
+    </div>
+</div>

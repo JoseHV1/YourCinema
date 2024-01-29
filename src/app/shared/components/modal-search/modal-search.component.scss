@@ -1,0 +1,43 @@
+.search-btn {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.search-form {
+  width: 18rem;
+}
+
+.search-btn .form-group {
+  width: 100%;
+}
+
+.search-btn button {
+  position: absolute;
+  right: 5px;
+}
+
+.search-form {
+  width: 18rem;
+}
+
+@media (max-width: 1199px) {
+  .search-btn {
+    width: 50%;
+  }
+
+  .search-form {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-form {
+    width: 20rem;
+  }
+
+  .search-btn {
+    justify-content: center;
+  }
+}

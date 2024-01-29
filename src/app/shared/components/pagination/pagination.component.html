@@ -1,0 +1,8 @@
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item" style="cursor: pointer;" *ngFor="let number of listNumberPagination"
+            (click)="onChangePage(number)" [ngClass]="{ 'active': number === currentNumberPage }">
+            <a class="page-link">{{number}}</a>
+        </li>
+    </ul>
+</nav>

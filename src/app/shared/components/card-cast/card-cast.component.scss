@@ -1,0 +1,9 @@
+.effect {
+  transition: 0.5s;
+}
+
+.effect:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  margin: -20px 0 20px 0;
+}

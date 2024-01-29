@@ -1,0 +1,38 @@
+.navbar .navbar-nav {
+  padding: .9rem 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: .9rem;
+  color: var(--bs-white);
+  font-weight: 500;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.5s;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--bs-primary);
+  transition: 0.5s;
+}
+
+.navbar-toggler {
+  background: var(--bs-secondary);
+  color: var(--bs-light) !important;
+  padding: .2rem .8rem;
+  border: 2px solid var(--bs-primary) !important;
+}
+
+.icon {
+  position: absolute;
+  top: 12px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    gap: .6rem;
+  }
+}
