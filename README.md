@@ -1,2 +1,2 @@
-# SpotiApp
-Practice with Angular and API of Spotify
+# YourCinema
+Practice with Angular and API of movies
