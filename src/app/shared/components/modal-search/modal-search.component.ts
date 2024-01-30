@@ -17,7 +17,6 @@ export class ModalSearchComponent {
   constructor(private router: Router, private _movie: MovieService, private _ui: UiService) {}
 
   searchMovie(param: string) {
-    console.log(param);
     this.search = param;
     this._ui.showLoader();
     this._movie
@@ -25,7 +24,7 @@ export class ModalSearchComponent {
       .pipe(finalize(() => this._ui.hideLoader()))
       .subscribe((resp: MovieModel[]) => {
         console.log(resp);
-        this.resultSearch = resp.slice(0, 9);
+        this.resultSearch = resp.slice(0, 11);
       });
   }
   

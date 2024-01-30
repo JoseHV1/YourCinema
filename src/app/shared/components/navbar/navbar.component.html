@@ -1,13 +1,13 @@
 <div class="container-fluid bg-dark py-2">
-    <div class="container">
-        <nav class="navbar navbar-dark navbar-expand-lg py-lg-0">
+    <div class="row px-2 px-md-5">
+        <nav class="col-12 col-md-6 navbar navbar-dark navbar-expand-lg py-lg-0">
             <a [routerLink]="['']" routerLinkActive="router-link-active" class="navbar-brand">
                 <h1 class="text-primary mb-0 display-5">
                     Your<span class="text-white">Cinema</span>
                     <i class="icon fa fa-film text-primary ms-2 d-none d-lg-inline"></i>
                 </h1>
             </a>
-            <app-modal-search></app-modal-search>
         </nav>
+        <app-modal-search class="col-12 col-md-6 search-container mb-4 mb-md-0"></app-modal-search>
     </div>
 </div>

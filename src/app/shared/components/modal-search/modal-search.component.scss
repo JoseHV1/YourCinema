@@ -1,3 +1,8 @@
+.modal-body {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .search-btn {
   position: relative;
   width: 100%;
@@ -22,6 +27,12 @@
   width: 18rem;
 }
 
+.item-list{
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 @media (max-width: 1199px) {
   .search-btn {
     width: 50%;
@@ -39,5 +50,9 @@
 
   .search-btn {
     justify-content: center;
+  }
+
+  .search-btn button {
+    right: 15px;
   }
 }
