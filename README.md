@@ -5,7 +5,7 @@ Practica utilizando una API de peliculas (The MovieDB) y Angular
 
 ## Link de la Practica
 
-[Ver practica en servidor](https://your-cinema.vercel.app/)
+[Ver practica funcionando en servidor](https://your-cinema.vercel.app/)
 
 # 🚀 Hola, Soy Jose Hernandez! 👋
 
