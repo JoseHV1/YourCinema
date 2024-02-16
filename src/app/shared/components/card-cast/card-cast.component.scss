@@ -2,6 +2,28 @@
   transition: 0.5s;
 }
 
+.cast-image {
+  width: 145px;
+  height: 145px;
+  background: var(--bs-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+  position: relative;
+}
+
+.cast-image::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-radius: 62px;
+  top: 50%;
+  left: 50%;
+  transition: .5s;
+}
+
 .effect:hover {
   cursor: pointer;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);

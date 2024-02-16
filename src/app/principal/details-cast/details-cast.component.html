@@ -1,6 +1,6 @@
 <section class="container-fluid px-3 px-md-5 mt-5">
     <div class="row px-0 px-lg-2">
-        <div class="col-xl-3 col-lg-5 col-md-6 col-12 mb-5 mb-md-0 px-4 px-md-0 px-lg-4">
+        <div class="col-xl-3 col-lg-5 col-md-6 col-12 mb-5 mb-md-0 px-4 px-md-0 px-lg-4 pe-0 pe-md-3 pe-lg-0">
             <app-card-cast [cast]="detailsCast"></app-card-cast>
         </div>
         <div class="col-xl-9 col-lg-7 col-md-6 col-12 px-3 px-xl-4">
@@ -17,7 +17,7 @@
     <div class="mt-3 mt-lg-4 row px-0 ps-3 px-lg-3">
         <h1 class="display-5 text-center mb-3 mb-md-2">Movies</h1>
         <div class="row">
-            <div class="col-xl-3 col-md-4 col-12 mb-4" *ngFor="let movie of moviesCast">
+            <div class="col-lg-3 col-md-6 col-12 mb-4" *ngFor="let movie of moviesCast">
                 <app-card-movie [movie]="movie" [height]="'28rem'"></app-card-movie>
             </div>
         </div>

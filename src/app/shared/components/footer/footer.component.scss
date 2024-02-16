@@ -1,0 +1,27 @@
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(assets/img/noimage.png) center center no-repeat;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 6rem;
+}
+
+.footer-item,
+.footer-item a {
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: capitalize;
+}
+
+.copyright .copyright-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.copyright .copyright-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
